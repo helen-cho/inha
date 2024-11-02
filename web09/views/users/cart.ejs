@@ -23,7 +23,7 @@
     //장바구니 목록
     onValue(ref(db, `cart/${uid}`), snapshot=>{
         //snapshot 에는 가져온 정보가 있음
-        //console.log(snapshot);
+        console.log(snapshot);
         let rows = [];
         //반복문을 통해 snapshot에 있는 데이터 한개씩을 rows 배열에 넣어줌
         snapshot.forEach(row=>{
